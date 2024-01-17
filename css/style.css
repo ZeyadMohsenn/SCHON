@@ -1374,3 +1374,28 @@ ul.slides li {
     max-width: 100%;
   }
 }
+html {
+	scroll-behavior: smooth;
+  }
+  ::-webkit-scrollbar {
+	  width: 12px;
+	 
+	  height: 12px;
+  }
+  
+  ::-webkit-scrollbar-track {
+	  background: #f1f1f1;
+	  
+  }
+  
+  ::-webkit-scrollbar-thumb {
+	  background: #E04343;
+	  border-radius: 4px;
+	  
+  }
+  
+  
+  ::-webkit-scrollbar-thumb:hover {
+	  background: #ec3636;
+	  
+  }
